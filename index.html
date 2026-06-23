@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WallQ – Rotationssymmetri från Västmanland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --birch:  #E8DFD0;
+      --grain:  #C4A882;
+      --char:   #1E1A16;
+      --smoke:  #6B6560;
+      --paper:  #F5F1EB;
+      --ink:    #2C2622;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 2rem;
+      background: var(--paper);
+      border-bottom: 1px solid var(--birch);
+    }
+    .nav-logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.25rem;
+      letter-spacing: 0.05em;
+      color: var(--char);
+      text-decoration: none;
+    }
+    nav a {
+      color: var(--smoke);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--char); }
+    .nav-links { display: flex; gap: 2rem; }
+
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 4rem;
+    }
+    .hero-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 5rem 3rem 5rem 4rem;
+    }
+    .eyebrow {
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--smoke);
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      line-height: 1.1;
+      color: var(--char);
+      margin-bottom: 1.5rem;
+    }
+    h1 em { font-style: italic; color: var(--grain); }
+    .hero-body {
+      font-size: 1.05rem;
+      color: var(--smoke);
+      max-width: 36ch;
+      margin-bottom: 2.5rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.85rem 2rem;
+      background: var(--char);
+      color: var(--paper);
+      text-decoration: none;
+      font-size: 0.85rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: background 0.2s;
+      align-self: flex-start;
+    }
+    .btn:hover { background: var(--grain); }
+    .btn-ghost {
+      background: transparent;
+      color: var(--char);
+      border: 1px solid var(--char);
+      margin-left: 1rem;
+    }
+    .btn-ghost:hover { background: var(--char); color: var(--paper); }
+    .hero-image {
+      background: var(--birch);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      overflow: hidden;
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    #till-salu, #sald {
+      padding: 6rem 4rem;
+    }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid var(--birch);
+      padding-bottom: 1rem;
+    }
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      color: var(--char);
+    }
+    .section-meta {
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--smoke);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-4px); }
+    .card-image {
+      aspect-ratio: 4/5;
+      background: var(--birch);
+      overflow: hidden;
+      position: relative;
+    }
+    .card-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .sold-badge {
+      position: absolute;
+      top: 1rem; right: 1rem;
+      background: var(--char);
+      color: var(--paper);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.6rem;
+    }
+    .card-body { padding: 1.25rem; }
+    .card-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.1rem;
+      color: var(--char);
+      margin-bottom: 0.4rem;
+    }
+    .card-materials {
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--smoke);
+      margin-bottom: 1rem;
+      line-height: 1.8;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .price {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--char);
+    }
+    .contact-link {
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--grain);
+      text-decoration: none;
+      border-bottom: 1px solid var(--grain);
+      transition: color 0.2s;
+    }
+    .contact-link:hover { color: var(--char); border-color: var(--char); }
+
+    #om {
+      padding: 6rem 4rem;
+      background: var(--char);
+      color: var(--birch);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    #om h2 { color: var(--paper); margin-bottom: 1.5rem; }
+    #om p { color: var(--birch); line-height: 1.8; margin-bottom: 1rem; font-size: 1rem; }
+    #om .eyebrow { color: var(--grain); }
+    .material-list { display: flex; flex-direction: column; gap: 1rem; }
+    .material-item { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; }
+    .material-item-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--grain);
+      margin-bottom: 0.3rem;
+    }
+    .material-item-value { font-size: 0.95rem; color: var(--birch); }
+
+    footer {
+      padding: 3rem 4rem;
+      border-top: 1px solid var(--birch);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer-logo { font-family: 'DM Serif Display', serif; font-size: 1.1rem; color: var(--char); }
+    .footer-tagline { font-size: 0.8rem; color: var(--smoke); letter-spacing: 0.06em; }
+    footer a { color: var(--smoke); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    footer a:hover { color: var(--char); }
+
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-image { min-height: 50vw; }
+      .hero-text { padding: 3rem 1.5rem; }
+      #till-salu, #sald { padding: 4rem 1.5rem; }
+      #om { grid-template-columns: 1fr; padding: 4rem 1.5rem; }
+      footer { flex-direction: column; gap: 1rem; text-align: center; }
+      .nav-links { gap: 1.25rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .card, .btn { transition: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">WallQ</a>
+    <div class="nav-links">
+      <a href="#till-salu">Till salu</a>
+      <a href="#om">Om</a>
+      <a href="https://www.instagram.com/wall__q/" target="_blank">Instagram</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Västerås, Västmanland</p>
+      <h1>Trä som<br>redan levt<br><em>ett liv</em></h1>
+      <p class="hero-body">
+        Svarvade fåglar och skålar av återbrukat material – gamla köksbänkar, parkettgolv och rivningsspill. Varje objekt är unikt.
+      </p>
+      <div>
+        <a href="#till-salu" class="btn">Till salu just nu</a>
+        <a href="https://www.instagram.com/wall__q/" target="_blank" class="btn btn-ghost">@wall__q</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="bilder/0.jpg" alt="WallQ fågel">
+    </div>
+  </section>
+
+  <section id="till-salu">
+    <div class="section-header">
+      <h2>Till salu just nu</h2>
+      <span class="section-meta">Uppdateras löpande</span>
+    </div>
+    <div class="grid" id="grid-till-salu"></div>
+  </section>
+
+  <section id="sald">
+    <div class="section-header">
+      <h2>Tidigare objekt</h2>
+      <span class="section-meta">Sålda</span>
+    </div>
+    <div class="grid" id="grid-sald"></div>
+  </section>
+
+  <section id="om">
+    <div>
+      <p class="eyebrow">Om WallQ</p>
+      <h2>Form från Västmanland</h2>
+      <p>
+        Jag heter Fredrik Wall och skapar bruks- och prydnadsföremål av trä i min svarv, ofta med material som redan levt ett liv tidigare. Gamla köksbänkar, parkettgolv och rivningsspill får en ny form och ett nytt uttryck.
+      </p>
+      <p>
+        Processen är tidkrävande och meditativ. Varje fågel får en unik form. Märken, skruvhål och spår från det tidigare livet kan vara kvar som en del av berättelsen.
+      </p>
+      <p>
+        Målet är inte perfektion – målet är att låta materialet hitta ett individuellt uttryck.
+      </p>
+    </div>
+    <div class="material-list">
+      <div class="material-item">
+        <p class="material-item-label">Material</p>
+        <p class="material-item-value">Återbrukat från byggarbetsplatser, inrednings- och möbelsnickeri</p>
+      </div>
+      <div class="material-item">
+        <p class="material-item-label">Teknik</p>
+        <p class="material-item-value">Svarvning på träsvarv</p>
+      </div>
+      <div class="material-item">
+        <p class="material-item-label">Behandling</p>
+        <p class="material-item-value">Hårdvaxolja</p>
+      </div>
+      <div class="material-item">
+        <p class="material-item-label">Köp i butik</p>
+        <p class="material-item-value">Region Västmanlands museibutik, Karlsgatan 2, Västerås</p>
+      </div>
+      <div class="material-item">
+        <p class="material-item-label">Instagram</p>
+        <p class="material-item-value">@wall__q</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+      <p class="footer-logo">WallQ</p>
+      <p class="footer-tagline">Rotationssymmetri från Västmanland</p>
+    </div>
+    <div style="display:flex; gap: 2rem;">
+      <a href="https://www.instagram.com/wall__q/" target="_blank">Instagram</a>
+      <a href="mailto:din@epost.se">Kontakt</a>
+    </div>
+  </footer>
+
+  <script>
+    fetch('faglar.json')
+      .then(r => r.json())
+      .then(faglar => {
+        const tillSalu = faglar.filter(f => f.status === 'till-salu');
+        const sald     = faglar.filter(f => f.status === 'sald');
+
+        function kortHtml(f) {
+          const mapp   = f.status === 'sald' ? 'sald' : 'till-salu';
+          const badge  = f.status === 'sald' ? '<span class="sold-badge">Såld</span>' : '';
+          const knapp  = f.status === 'till-salu'
+            ? `<a href="mailto:din@epost.se?subject=WallQ Fågel nr. ${f.nr}" class="contact-link">Intresseanmälan</a>`
+            : '';
+          return `
+            <div class="card">
+              <div class="card-image">
+                <img src="${mapp}/${f.nr}.jpg" alt="Fågel nr. ${f.nr}">
+                ${badge}
+              </div>
+              <div class="card-body">
+                <p class="card-title">Fågel nr. ${f.nr}</p>
+                <p class="card-materials">
+                  Huvud · ${f.huvud}<br>
+                  Näbb · ${f.nabb}<br>
+                  Kropp · ${f.kropp}<br>
+                  Vingar · ${f.vingar}<br>
+                  Behandling · Hårdvaxolja
+                </p>
+                <div class="card-footer">
+                  <span class="price">${f.pris.toLocaleString('sv-SE')} kr</span>
+                  ${knapp}
+                </div>
+              </div>
+            </div>`;
+        }
+
+        document.getElementById('grid-till-salu').innerHTML = tillSalu.map(kortHtml).join('');
+        document.getElementById('grid-sald').innerHTML      = sald.map(kortHtml).join('');
+      });
+  </script>
+
+</body>
+</html>

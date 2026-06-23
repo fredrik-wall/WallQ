@@ -1,0 +1,29 @@
+[
+  {
+    "nr": 1,
+    "status": "till-salu",
+    "pris": 1200,
+    "huvud": "Rökt ek",
+    "nabb": "Bok",
+    "kropp": "Ek",
+    "vingar": "Rökt ek"
+  },
+  {
+    "nr": 2,
+    "status": "till-salu",
+    "pris": 950,
+    "huvud": "Björk",
+    "nabb": "Valnöt",
+    "kropp": "Björk",
+    "vingar": "Björk"
+  },
+  {
+    "nr": 3,
+    "status": "sald",
+    "pris": 1400,
+    "huvud": "Valnöt",
+    "nabb": "Valnöt",
+    "kropp": "Valnöt",
+    "vingar": "Plywood"
+  }
+]
