@@ -2,7 +2,7 @@
   {
     "nr": 1,
     "status": "till-salu",
-    "pris": 1200,
+    "pris": 1100,
     "huvud": "Rökt ek",
     "nabb": "Bok",
     "kropp": "Ek",
@@ -19,6 +19,15 @@
   },
   {
     "nr": 3,
+    "status": "sald",
+    "pris": 1100,
+    "huvud": "Valnöt",
+    "nabb": "Valnöt",
+    "kropp": "Valnöt",
+    "vingar": "Plywood"
+  },
+  {
+    "nr": 4,
     "status": "sald",
     "pris": 1400,
     "huvud": "Valnöt",
