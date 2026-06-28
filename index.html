@@ -401,7 +401,7 @@
           return `
             <div class="card">
               <div class="card-image">
-                <img src="${mapp}/${f.nr}.jpg" alt="Fågel nr. ${f.nr}">
+                ${f.instagram ? `<a href="${f.instagram}" target="_blank" rel="noopener">` : ''}<img src="${mapp}/${f.nr}.jpg" alt="Fågel nr. ${f.nr}">${f.instagram ? '</a>' : ''}
                 ${badge}
               </div>
               <div class="card-body">
