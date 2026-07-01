@@ -1,210 +1,212 @@
 [
-    {
-          "nr": 1,
-          "status": "sald",
-          "pris": 1100,
-          "huvud": "Rökt ek",
-          "nabb": "Bok",
-          "kropp": "Ek",
-          "vingar": "Rökt ek"
-    },
-    {
-          "nr": 2,
-          "status": "till-salu",
-          "pris": 1200,
-          "huvud": "Rökt ek",
-          "nabb": "Bok",
-          "kropp": "Ek",
-          "vingar": "Rökt Ek",
-          "instagram": "https://www.instagram.com/wall__q/p/DYfNCiXiH49/"
-    },
-    {
-          "nr": 3,
-          "status": "sald",
-          "pris": 1100,
-          "huvud": "Valnöt",
-          "nabb": "Valnöt",
-          "kropp": "Valnöt",
-          "vingar": "Plywood"
-    },
-    {
-          "nr": 4,
-          "status": "till-salu",
-          "pris": 1100,
-          "huvud": "Valnöt",
-          "nabb": "Valnöt",
-          "kropp": "Valnöt",
-          "vingar": "Plywood"
-    },
-    {
-          "nr": 5,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 6,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 7,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 8,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 9,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 10,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 11,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 12,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 13,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 14,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 15,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 17,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 19,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 20,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 21,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 22,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 23,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 24,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    },
-    {
-          "nr": 25,
-          "status": "sald",
-          "pris": 0,
-          "huvud": "",
-          "nabb": "",
-          "kropp": "",
-          "vingar": ""
-    }
+      {
+              "nr": 1,
+              "status": "sald",
+              "pris": 1100,
+              "huvud": "Rökt ek",
+              "nabb": "Bok",
+              "kropp": "Ek",
+              "vingar": "Rökt ek"
+      },
+      {
+              "nr": 2,
+              "status": "till-salu",
+              "pris": 1200,
+              "huvud": "Rökt Ek",
+              "nabb": "Bok",
+              "kropp": "Ek",
+              "vingar": "Rökt Ek",
+              "behandling": "Hårdvaxolja",
+              "instagram": "https://www.instagram.com/wall__q/p/DYfNCiXiH49/"
+      },
+      {
+              "nr": 3,
+              "status": "sald",
+              "pris": 1100,
+              "huvud": "Valnöt",
+              "nabb": "Valnöt",
+              "kropp": "Valnöt",
+              "vingar": "Plywood"
+      },
+      {
+              "nr": 4,
+              "status": "till-salu",
+              "pris": 1100,
+              "huvud": "Gran",
+              "nabb": "Valnöt",
+              "kropp": "Gran",
+              "vingar": "Blandat",
+              "behandling": "Hårdvaxolja"
+      },
+      {
+              "nr": 5,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 6,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 7,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 8,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 9,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 10,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 11,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 12,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 13,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 14,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 15,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 17,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 19,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 20,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 21,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 22,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 23,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 24,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      },
+      {
+              "nr": 25,
+              "status": "sald",
+              "pris": 0,
+              "huvud": "",
+              "nabb": "",
+              "kropp": "",
+              "vingar": ""
+      }
 ]
