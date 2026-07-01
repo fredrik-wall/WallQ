@@ -19,17 +19,16 @@
                       "behandling": "Hårdvaxolja",
                       "pris": 1000
           },
-          {
-                      "nr": 4,
-                      "status": "till-salu",
-                      "huvud": "",
-                      "nabb": "",
-                      "kropp": "",
-                      "vingar": "",
-                      "behandling": "",
-                      "pris": 0
-          },
-          {
+  {
+                        "nr": 4,
+                        "status": "till-salu",
+                        "huvud": "Gran",
+                        "nabb": "Valnöt",
+                        "kropp": "Gran",
+                        "vingar": "Blandat",
+                        "behandling": "Hårdvaxolja",
+                        "pris": 0
+  },{
                       "nr": 5,
                       "status": "sald",
                       "huvud": "Ek",
