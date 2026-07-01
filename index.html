@@ -17,7 +17,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --birch:  #E8DFD0;
+      --birch:  #E8DFD0;h
       --grain:  #C4A882;
       --char:   #1E1A16;
       --smoke:  #6B6560;
@@ -421,7 +421,7 @@
                   Behandling · Hårdvaxolja
                 </p>
                 <div class="card-footer">
-                  <span class="price">${f.pris.toLocaleString('sv-SE')} kr</span>
+                  <span class="price">${f.pris != null ? f.pris.toLocaleString('sv-SE') + ' kr' : '–'}</span>
                   ${knapp}
                 </div>
               </div>
