@@ -9,7 +9,7 @@
     gtag('js', new Date());
     gtag('config', 'G-95HE4PWM3C');h
   </script>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8">h
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WallQ – Rotationssymmetri från Västmanland</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -405,16 +405,16 @@
           const mapp   = f.status === 'sald' ? 'sald' : 'till-salu';
           const badge  = f.status === 'sald' ? '<span class="sold-badge">Såld</span>' : '';
           const knapp  = f.status === 'till-salu'
-            ? `<a href="mailto:fredrik_wall@hotmail.com?subject=WallQ Fågel nr. ${f.nr}" class="contact-link">Intresseanmälan</a>`
+            ? `<a href="mailto:fredrik_wall@hotmail.com?subject=WallQ Nr. ${f.nr}" class="contact-link">Intresseanmälan</a>`
             : '';
           return `
             <div class="card">
               <div class="card-image">
-                ${f.instagram ? `<a href="${f.instagram}" target="_blank" rel="noopener">` : ''}<img src="${mapp}/${f.nr}.jpg" alt="Fågel nr. ${f.nr}">${f.instagram ? '</a>' : ''}
+                ${f.instagram ? `<a href="${f.instagram}" target="_blank" rel="noopener">` : ''}<img src="${mapp}/${f.nr}.jpg" alt="Nr. ${f.nr}">${f.instagram ? '</a>' : ''}
                 ${badge}
               </div>
               <div class="card-body">
-                <p class="card-title">Fågel nr. ${f.nr}</p>
+                <p class="card-title">Nr. ${f.nr}</p>
                 <p class="card-materials">
                   Huvud · ${f.huvud}<br>
                   Näbb · ${f.nabb}<br>
