@@ -1,252 +1,202 @@
 [
-        {
-                  "nr": 1,
-                  "status": "till-salu",
-                  "huvud": "Ek/Gran",
-                  "nabb": "Ek",
-                  "kropp": "Gran",
-                  "vingar": "Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 900
-        },
-        {
-                  "nr": 2,
-                  "status": "till-salu",
-                  "huvud": "Bok",
-                  "nabb": "Valnöt",
-                  "kropp": "Bok",
-                  "vingar": "Valnöt",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1000
-        },
-        {
-                  "nr": 3,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 4,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 5,
-                  "status": "till-salu",
-                  "huvud": "Ek",
-                  "nabb": "Gran",
-                  "kropp": "Gran",
-                  "vingar": "Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 900
-        },
-        {
-                  "nr": 6,
-                  "status": "till-salu",
-                  "huvud": "Bok",
-                  "nabb": "Valnöt",
-                  "kropp": "Bok",
-                  "vingar": "Bok",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1000
-        },
-        {
-                  "nr": 7,
-                  "status": "till-salu",
-                  "huvud": "Valnöt/Ek",
-                  "nabb": "Ek",
-                  "kropp": "Ek",
-                  "vingar": "Valnöt",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 950
-        },
-        {
-                  "nr": 8,
-                  "status": "till-salu",
-                  "huvud": "Ekparkett",
-                  "nabb": "Ekparkett",
-                  "kropp": "Ekparkett",
-                  "vingar": "Rökt Ekparkett",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1200
-        },
-        {
-                  "nr": 9,
-                  "status": "till-salu",
-                  "huvud": "Ek/Valnöt",
-                  "nabb": "Valnöt/Plywood",
-                  "kropp": "Ek",
-                  "vingar": "Valnöt",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1300
-        },
-        {
-                  "nr": 10,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 11,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 12,
-                  "status": "till-salu",
-                  "huvud": "Furu",
-                  "nabb": "Furu",
-                  "kropp": "Furu",
-                  "vingar": "Furu",
-                  "behandling": "Bränd/Vaxad",
-                  "pris": 1200
-        },
-        {
-                  "nr": 13,
-                  "status": "till-salu",
-                  "huvud": "Ek/Gran",
-                  "nabb": "Ek",
-                  "kropp": "Gran",
-                  "vingar": "Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 900
-        },
-        {
-                  "nr": 14,
-                  "status": "till-salu",
-                  "huvud": "Valnöt",
-                  "nabb": "Valnöt",
-                  "kropp": "Valnöt",
-                  "vingar": "Plywood",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1100
-        },
-        {
-                  "nr": 15,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 16,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 17,
-                  "status": "till-salu",
-                  "huvud": "Furu",
-                  "nabb": "Furu",
-                  "kropp": "Furu",
-                  "vingar": "Furu",
-                  "behandling": "Bränd/Vaxad",
-                  "pris": 1100
-        },
-        {
-                  "nr": 18,
-                  "status": "till-salu",
-                  "huvud": "",
-                  "nabb": "",
-                  "kropp": "",
-                  "vingar": "",
-                  "behandling": "",
-                  "pris": 0
-        },
-        {
-                  "nr": 19,
-                  "status": "till-salu",
-                  "huvud": "Ek/Gran",
-                  "nabb": "Ek",
-                  "kropp": "Gran",
-                  "vingar": "Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 900
-        },
-        {
-                  "nr": 20,
-                  "status": "till-salu",
-                  "huvud": "Furu",
-                  "nabb": "Furu",
-                  "kropp": "Furu",
-                  "vingar": "Furu",
-                  "behandling": "Bränd/Vaxad",
-                  "pris": 1200
-        },
-        {
-                  "nr": 21,
-                  "status": "till-salu",
-                  "huvud": "Ek/Bambu",
-                  "nabb": "Ek/Bambu",
-                  "kropp": "Bambu",
-                  "vingar": "Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1100
-        },
-        {
-                  "nr": 22,
-                  "status": "till-salu",
-                  "huvud": "Björk",
-                  "nabb": "Valnöt",
-                  "kropp": "Björk",
-                  "vingar": "Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1200
-        },
-        {
-                  "nr": 23,
-                  "status": "till-salu",
-                  "huvud": "Rökt Ek",
-                  "nabb": "Poppel",
-                  "kropp": "Ek/Rökt Ek",
-                  "vingar": "Rökt Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1000
-        },
-        {
-                  "nr": 24,
-                  "status": "till-salu",
-                  "huvud": "Rökt Ek",
-                  "nabb": "Bok",
-                  "kropp": "Ek",
-                  "vingar": "Rökt Ek",
-                  "behandling": "Hårdvaxolja",
-                  "pris": 1200
-        },
-        {
-                  "nr": 25,
-                  "status": "till-salu",
-                  "huvud": "Valnöt/Björk",
-                  "nabb": "Valnöt/Björk",
-                  "kropp": "Björk",
-                  "vingar": "Valnöt",
-                  "behandling": "Hårdvaxolja",
-                  "pris": null
-        }
+          {
+                      "nr": 1,
+                      "status": "sald",
+                      "huvud": "Ek/Gran",
+                      "nabb": "Ek",
+                      "kropp": "Gran",
+                      "vingar": "Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 900
+          },
+          {
+                      "nr": 2,
+                      "status": "till-salu",
+                      "huvud": "Bok",
+                      "nabb": "Valnöt",
+                      "kropp": "Bok",
+                      "vingar": "Valnöt",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1000
+          },
+          {
+                      "nr": 4,
+                      "status": "till-salu",
+                      "huvud": "",
+                      "nabb": "",
+                      "kropp": "",
+                      "vingar": "",
+                      "behandling": "",
+                      "pris": 0
+          },
+          {
+                      "nr": 5,
+                      "status": "sald",
+                      "huvud": "Ek",
+                      "nabb": "Gran",
+                      "kropp": "Gran",
+                      "vingar": "Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 900
+          },
+          {
+                      "nr": 6,
+                      "status": "sald",
+                      "huvud": "Bok",
+                      "nabb": "Valnöt",
+                      "kropp": "Bok",
+                      "vingar": "Bok",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1000
+          },
+          {
+                      "nr": 7,
+                      "status": "sald",
+                      "huvud": "Valnöt/Ek",
+                      "nabb": "Ek",
+                      "kropp": "Ek",
+                      "vingar": "Valnöt",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 950
+          },
+          {
+                      "nr": 8,
+                      "status": "sald",
+                      "huvud": "Ekparkett",
+                      "nabb": "Ekparkett",
+                      "kropp": "Ekparkett",
+                      "vingar": "Rökt Ekparkett",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1200
+          },
+          {
+                      "nr": 9,
+                      "status": "sald",
+                      "huvud": "Ek/Valnöt",
+                      "nabb": "Valnöt/Plywood",
+                      "kropp": "Ek",
+                      "vingar": "Valnöt",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1300
+          },
+          {
+                      "nr": 11,
+                      "status": "sald",
+                      "huvud": "",
+                      "nabb": "",
+                      "kropp": "",
+                      "vingar": "",
+                      "behandling": "",
+                      "pris": 0
+          },
+          {
+                      "nr": 12,
+                      "status": "sald",
+                      "huvud": "Furu",
+                      "nabb": "Furu",
+                      "kropp": "Furu",
+                      "vingar": "Furu",
+                      "behandling": "Bränd/Vaxad",
+                      "pris": 1200
+          },
+          {
+                      "nr": 13,
+                      "status": "sald",
+                      "huvud": "Ek/Gran",
+                      "nabb": "Ek",
+                      "kropp": "Gran",
+                      "vingar": "Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 900
+          },
+          {
+                      "nr": 14,
+                      "status": "sald",
+                      "huvud": "Valnöt",
+                      "nabb": "Valnöt",
+                      "kropp": "Valnöt",
+                      "vingar": "Plywood",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1100
+          },
+          {
+                      "nr": 17,
+                      "status": "sald",
+                      "huvud": "Furu",
+                      "nabb": "Furu",
+                      "kropp": "Furu",
+                      "vingar": "Furu",
+                      "behandling": "Bränd/Vaxad",
+                      "pris": 1100
+          },
+          {
+                      "nr": 19,
+                      "status": "sald",
+                      "huvud": "Ek/Gran",
+                      "nabb": "Ek",
+                      "kropp": "Gran",
+                      "vingar": "Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 900
+          },
+          {
+                      "nr": 20,
+                      "status": "sald",
+                      "huvud": "Furu",
+                      "nabb": "Furu",
+                      "kropp": "Furu",
+                      "vingar": "Furu",
+                      "behandling": "Bränd/Vaxad",
+                      "pris": 1200
+          },
+          {
+                      "nr": 21,
+                      "status": "sald",
+                      "huvud": "Ek/Bambu",
+                      "nabb": "Ek/Bambu",
+                      "kropp": "Bambu",
+                      "vingar": "Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1100
+          },
+          {
+                      "nr": 22,
+                      "status": "sald",
+                      "huvud": "Björk",
+                      "nabb": "Valnöt",
+                      "kropp": "Björk",
+                      "vingar": "Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1200
+          },
+          {
+                      "nr": 23,
+                      "status": "sald",
+                      "huvud": "Rökt Ek",
+                      "nabb": "Poppel",
+                      "kropp": "Ek/Rökt Ek",
+                      "vingar": "Rökt Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1000
+          },
+          {
+                      "nr": 24,
+                      "status": "sald",
+                      "huvud": "Rökt Ek",
+                      "nabb": "Bok",
+                      "kropp": "Ek",
+                      "vingar": "Rökt Ek",
+                      "behandling": "Hårdvaxolja",
+                      "pris": 1200
+          },
+          {
+                      "nr": 25,
+                      "status": "sald",
+                      "huvud": "Valnöt/Björk",
+                      "nabb": "Valnöt/Björk",
+                      "kropp": "Björk",
+                      "vingar": "Valnöt",
+                      "behandling": "Hårdvaxolja",
+                      "pris": null
+          }
 ]
